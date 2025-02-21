@@ -1,0 +1,29 @@
+{
+  "type" : "module",
+  "name": "zerostepplaywright",
+  "version": "1.0.0",
+  "description": "uses the ZeroStep library to create maintance free automated tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonutMoldovan/ZeroStepPlaywright.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IonutMoldovan/ZeroStepPlaywright/issues"
+  },
+  "homepage": "https://github.com/IonutMoldovan/ZeroStepPlaywright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4",
+    "@zerostep/playwright": "^0.1.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "zerostep": "^1.2.1"
+  }
+}
